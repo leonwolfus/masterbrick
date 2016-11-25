@@ -1,0 +1,6 @@
+/wagtaildemo/settings/local.py
+/static
+*.pyc
+/media
+/Vagrantfile.local
+.idea
