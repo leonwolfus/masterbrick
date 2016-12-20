@@ -208,5 +208,29 @@ body {
 dd {
     margin-right: 0;
 }
+.jumbotron  {
+    padding-top: 1px;
+    padding-bottom: 20px;
+}
+.logo_big {
+    float: left;
+    margin: 20px 0 10px;
+}
 
 
+/* custom styles */
+.emphasis {
+    color: #530F13;
+    font-weight: bold;
+}
+.jumbotron  {
+    h1 {
+        color: #530F13;
+        font-size: 40px;
+    }
+}
+
+/* gallery custom styles */
+#baguetteBox-slider {
+    direction: ltr;
+}

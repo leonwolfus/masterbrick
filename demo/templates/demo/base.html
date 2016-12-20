@@ -19,6 +19,7 @@
         {% compress css %}
             {# Custom stylesheets #}
             {# SCSS compilation relies on django compressor #}
+            <link rel="stylesheet" href="{% static 'css/simple-gallery.css' %}">
             <link rel="stylesheet" type="text/x-scss" href="{% static "demo/css/main.scss" %}" />
         {% endcompress %}
 
