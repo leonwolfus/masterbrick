@@ -1,9 +1,9 @@
 {
-  "name": "Wagtaildemo",
-  "description": "Wagtaildemo",
-  "repository": "https://github.com/torchbox/wagtaildemo",
+  "name": "MasterBrick",
+  "description": "MasterBrick",
+  "repository": "https://github.com/leonwolfus/masterbrick",
   "logo": "http://wagtail.io/static/wagtailsite/images/navlogo2.png",
-  "keywords": ["wagtail", "django"],
+  "keywords": ["MasterBrick"],
   "env": {
     "DJANGO_SETTINGS_MODULE": "wagtaildemo.settings.heroku"
   },
