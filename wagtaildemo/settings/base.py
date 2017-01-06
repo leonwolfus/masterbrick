@@ -25,7 +25,7 @@ DATABASES = {
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/1.5/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = ['masterbrick.herokuapp.com', 'masterbrick.co.il']
+ALLOWED_HOSTS = ['masterbrick.herokuapp.com', 'masterbrick.co.il', 'localhost']
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
@@ -94,7 +94,7 @@ STATICFILES_FINDERS = (
 # ** however this is a demo app so we're using the default settings.
 # ** Don't use this key in any non-demo usage!
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = 'wq21wtjo3@d_qfjvd-#td!%7gfy2updj2z+nev^k$iy%=m4_tr'
+# SECRET_KEY = 'wq21wtjo3@d_qfjvd-#td!%7gfy2updj2z+nev^k$iy%=m4_tr'
 
 MIDDLEWARE_CLASSES = (
     'django.middleware.common.CommonMiddleware',
