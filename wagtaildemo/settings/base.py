@@ -8,7 +8,7 @@ BASE_DIR = PROJECT_ROOT
 DEBUG = True
 
 ADMINS = (
-    # ('Your Name', 'your_email@example.com'),
+    ('leonidv', 'leonvolkov@gmail.com'),
 )
 
 # Default to dummy email backend. Configure dev/production/local backend
