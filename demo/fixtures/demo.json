@@ -1,33 +1,6 @@
 [
 
   {
-    "model": "demo.advert",
-    "pk": 5,
-    "fields": {
-      "page": 25,
-      "url": "",
-      "text": "\u05e6\u05d5\u05e8 \u05e7\u05e9\u05e8"
-    }
-  },
-  {
-    "model": "demo.advert",
-    "pk": 7,
-    "fields": {
-      "page": 26,
-      "url": "",
-      "text": "\u05d0\u05d5\u05d3\u05d5\u05ea MasterBrick"
-    }
-  },
-  {
-    "model": "demo.advert",
-    "pk": 8,
-    "fields": {
-      "page": null,
-      "url": "",
-      "text": "2016 \u00a9  \u05e7\u05d5\u05dc \u05d4\u05d6\u05db\u05d5\u05d9\u05d5\u05ea \u05e9\u05de\u05d5\u05e8\u05d5\u05ea \u05dc-MasterBrick"
-    }
-  },
-  {
     "model": "demo.homepagecarouselitem",
     "pk": 1,
     "fields": {
