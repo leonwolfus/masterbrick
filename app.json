@@ -5,10 +5,10 @@
   "logo": "http://wagtail.io/static/wagtailsite/images/navlogo2.png",
   "keywords": ["MasterBrick"],
   "env": {
-    "DJANGO_SETTINGS_MODULE": "wagtaildemo.settings.heroku"
+    "DJANGO_SETTINGS_MODULE": "wagtaildemo.settings.production"
   },
   "scripts": {
-    "postdeploy": "django-admin.py migrate && django-admin.py load_initial_data"
+    "postdeploy": "django-admin.py migrate"
   },
   "addons": [
     "heroku-postgresql:hobby-dev"
