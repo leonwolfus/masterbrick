@@ -18,3 +18,4 @@ elasticsearch==1.2.0
 dj-database-url==0.3.0
 whitenoise==2.0.4
 uwsgi==2.0.11.2
+# django-storages==1.5.1
