@@ -1,0 +1,225 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700');
+/* line 10, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+html {
+  background-color: whitesmoke; }
+
+/* fonts */
+/* line 15, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif; }
+
+/* body image styles - classes supplied by rich text editor */
+/* line 21, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+.body-content {
+  width: 100%;
+  overflow: hidden;
+  clear: both;
+  margin-bottom: 1em; }
+  /* line 26, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+  .body-content img {
+    margin-bottom: 2%;
+    margin-top: 2%; }
+  /* line 31, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+  .body-content img.full-width {
+    width: 100%; }
+  /* line 35, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+  .body-content img.left {
+    width: 45%;
+    margin-right: 5%;
+    float: left; }
+  /* line 41, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+  .body-content img.right {
+    width: 45%;
+    margin-left: 5%;
+    float: right; }
+  /* line 47, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+  .body-content h1, .body-content h2, .body-content h3, .body-content h4, .body-content h5 {
+    clear: both; }
+
+/* line 53, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+.img-wrapper {
+  margin-bottom: 1em;
+  position: relative; }
+  /* line 57, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+  .img-wrapper img {
+    display: block;
+    width: 100%;
+    margin-bottom: 0; }
+  /* line 63, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+  .img-wrapper.left {
+    float: left;
+    width: 45%;
+    margin-right: 5%; }
+  /* line 68, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+  .img-wrapper.right {
+    float: right;
+    width: 45%;
+    margin-left: 5%; }
+
+/* line 75, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+.intro {
+  font-size: 1.4em; }
+
+/* line 79, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+.caption {
+  padding: 0.2em 1em 0.2em 0.5em;
+  margin: 0;
+  font-weight: 400;
+  background: #F2f2f2;
+  font-style: italic;
+  display: inline-block;
+  z-index: 2;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  font-size: 0.9em;
+  max-width: calc(100% - 10px); }
+  /* line 93, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+  .caption p {
+    margin: 0 !important; }
+
+/* line 98, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+blockquote {
+  margin: 2em 0; }
+  /* line 101, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+  blockquote span {
+    display: block;
+    color: #AAA;
+    font-size: 0.8em; }
+
+/* List styling - tweaks to include images */
+/* line 111, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+a.list-group-item {
+  clear: both;
+  width: 100%;
+  overflow: hidden; }
+  /* line 115, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+  a.list-group-item .list-group-item-text {
+    margin-top: 1%; }
+    /* line 117, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+    a.list-group-item .list-group-item-text img {
+      float: left;
+      margin-right: 2%;
+      margin-bottom: 1%; }
+
+/* Style pager */
+/* line 126, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+.col-sm-4.pages {
+  text-align: center; }
+
+/* line 130, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+.col-sm-4.next {
+  text-align: right; }
+
+/* line 134, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+.main {
+  padding-top: 66px;
+  min-height: 700px; }
+
+/* line 139, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+.carousel {
+  margin-bottom: 15px; }
+  /* line 141, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+  .carousel .carousel-caption {
+    background-color: rgba(0, 127, 127, 0.6);
+    padding-top: 0; }
+    /* line 144, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+    .carousel .carousel-caption .btn {
+      margin-bottom: 10px; }
+
+/* line 150, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+p {
+  text-align: justify; }
+  /* line 153, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+  p:last-child {
+    margin-bottom: 0; }
+
+/* line 158, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+.advert-list {
+  margin-top: 15px;
+  margin-bottom: 0;
+  padding: 15px 0;
+  background-color: whitesmoke;
+  border-top: 1px solid #b5b5b5; }
+
+/* rtl overrides */
+/* line 168, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+body {
+  direction: rtl;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif; }
+
+@media (min-width: 768px) {
+  /* line 174, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+  .navbar-header {
+    float: right; }
+  /* line 177, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+  .navbar-nav {
+    float: right; }
+    /* line 179, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+    .navbar-nav > li {
+      float: left; }
+  /* line 184, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+  .navbar-right {
+    float: left !important;
+    margin-left: -15px;
+    margin-right: 0; }
+  /* line 189, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+  .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-right: -15px;
+    margin-left: 0; }
+  /* line 193, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+  .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+    float: right; } }
+
+/* line 197, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+.media-left, .media > .pull-left {
+  padding-left: 10px;
+  padding-right: 0; }
+
+/* line 202, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+.media-right, .media > .pull-right {
+  padding-right: 10px;
+  padding-left: 0; }
+
+/* line 206, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+.list-inline {
+  margin-left: 0;
+  margin-right: -5px; }
+
+/* line 210, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+dd {
+  margin-right: 0; }
+
+/* line 213, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+.jumbotron {
+  padding-top: 1px;
+  padding-bottom: 20px; }
+
+/* line 217, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+.logo_big {
+  float: left;
+  margin: 20px 0 0 -10px; }
+
+/* custom styles */
+/* line 224, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+.emphasis {
+  color: #530F13;
+  font-weight: bold; }
+
+/* line 229, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+.jumbotron h1 {
+  color: #530F13;
+  font-size: 40px; }
+
+/* gallery custom styles */
+/* line 236, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+#baguetteBox-slider {
+  direction: ltr; }
+
+/* line 240, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+.body-content h1, .body-content h2, .body-content h3, .body-content h4, .body-content h5 {
+  clear: none; }
+
+/* line 243, /home/leonidv/projects/masterbrick/demo/static/demo/css/main.scss */
+h1, h2, h3, h4 {
+  color: #530F13 !important; }

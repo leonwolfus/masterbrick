@@ -1,5 +1,5 @@
 /wagtaildemo/settings/local.py
-/static
+/static/CACHE
 *.pyc
 /media
 /Vagrantfile.local

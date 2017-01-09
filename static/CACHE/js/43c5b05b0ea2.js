@@ -1,0 +1,1 @@
+$(document).ready(function(){$('[title]').tooltip({container:'body'});$('.body-content img').addClass("img-thumbnail");});
