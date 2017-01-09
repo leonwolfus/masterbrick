@@ -94,6 +94,8 @@ COMPRESS_CSS_FILTERS = [
 ]
 COMPRESS_CSS_HASHING_METHOD = 'content'
 
+
+
 # List of finder classes that know how to find static files in
 # various locations.
 STATICFILES_FINDERS = (
@@ -156,7 +158,8 @@ INSTALLED_APPS = (
     'wagtail.contrib.wagtailapi',
 
     'demo',
-    'wagtail_simple_gallery'
+    'wagtail_simple_gallery',
+    'storages'
 )
 
 # Add wagtail.contrib.wagtailsearchpromotions to INSTALLED_APPS
