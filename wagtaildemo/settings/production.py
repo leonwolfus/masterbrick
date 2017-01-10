@@ -5,10 +5,10 @@ DEBUG = False
 env = os.environ.copy()
 SECRET_KEY = env['SECRET_KEY']
 
-DEFAULT_FILE_STORAGE = 'storages.backends.dropbox.DropBoxStorage'
-
-DROPBOX_OAUTH2_TOKEN = env['DROPBOX_OAUTH2_TOKEN']
-DROPBOX_ROOT_PATH = '/masterbrick/'
+# DEFAULT_FILE_STORAGE = 'storages.backends.dropbox.DropBoxStorage'
+#
+# DROPBOX_OAUTH2_TOKEN = env['DROPBOX_OAUTH2_TOKEN']
+# DROPBOX_ROOT_PATH = '/masterbrick/'
 
 # Parse database configuration from $DATABASE_URL
 import dj_database_url

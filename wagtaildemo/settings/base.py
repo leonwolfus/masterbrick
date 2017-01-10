@@ -159,7 +159,7 @@ INSTALLED_APPS = (
 
     'demo',
     'wagtail_simple_gallery',
-    'storages'
+    #'storages'
 )
 
 # Add wagtail.contrib.wagtailsearchpromotions to INSTALLED_APPS
