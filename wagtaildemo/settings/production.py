@@ -1,6 +1,6 @@
 from .base import *
 
-DEBUG = False
+DEBUG = True
 
 env = os.environ.copy()
 SECRET_KEY = env['SECRET_KEY']
