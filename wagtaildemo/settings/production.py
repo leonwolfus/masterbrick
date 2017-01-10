@@ -1,6 +1,7 @@
 from .base import *
 
 DEBUG = True
+COMPRESS_ENABLED = True
 
 env = os.environ.copy()
 SECRET_KEY = env['SECRET_KEY']
